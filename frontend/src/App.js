@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./App.css"; // Import CSS file
+import "./App.css"; 
 
 const API_URL = "https://polling-m65n.onrender.com/polls";
 
