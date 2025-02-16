@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css"; // Import CSS file
 
-const API_URL = "http://localhost:5000/polls";
+const API_URL = "https://polling-m65n.onrender.com/polls";
 
 function App() {
   const [polls, setPolls] = useState([]);
