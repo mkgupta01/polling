@@ -1,0 +1,80 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c3c1c1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border: 2px solid black;
+  padding: 40px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.button.add {
+  background-color: #007bff;
+  color: white;
+}
+
+.button.create {
+  background-color: #28a745;
+  color: white;
+}
+
+.poll {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.option:last-child {
+  border-bottom: none;
+}
+
+.vote-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.vote-button:hover {
+  background-color: #ddd;
+}
